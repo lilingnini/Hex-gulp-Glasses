@@ -110,7 +110,8 @@ header {
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding-right: -13px; }
 
 .menu a {
   font-size: 20px;
