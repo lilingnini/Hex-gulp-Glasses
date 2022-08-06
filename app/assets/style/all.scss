@@ -7,6 +7,30 @@
 @import "./variables";
 
 
+header{
+  background-color:$primary_color;
+}
+
+h2{
+  font-size: 36px;
+}
+h3{
+  font-size: 48px;
+  color:$secondary-color;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+h4{
+  font-size: 48px;
+  font-style: italic;
+  color:$primary_color;
+  font-weight: bold;
+  text-align: center;
+}
+h5{
+  margin-bottom: 72px;
+}
 
 .header-box{
   justify-content: space-between;
@@ -384,4 +408,5 @@
   .footer-contact-phone,.footer-contact-letter{
     gap:4px;
   }
+ }
 }
