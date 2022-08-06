@@ -2,6 +2,10 @@
     box-sizing: border-box;
     /* outline: 1px solid black; */
   }
+  body{
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+    line-height: 1.5;
+  }
   a{
    text-decoration: none;
    display: block;
@@ -15,29 +19,22 @@
     height: auto;
     vertical-align: middle;
   }
-  .container{
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 12px;
+  header{
+    background-color: #AA0601;
   }
-  .text-white{
-    color: #FFFFFF;
-  }
-  h1{
-    font-size: 36px;
-    line-height: 54px;
-  }
+
   h2{
+    font-size: 36px;
+  }
+  h3{
     font-size: 48px;
-    line-height: 72px;
     color:#650300;
     text-align: center;
     font-weight: bold;
     margin-bottom: 32px;
   }
-  h3{
+  h4{
     font-size: 48px;
-    line-height: 72px;
     font-style: italic;
     color:#AA0601;
     font-weight: bold;
