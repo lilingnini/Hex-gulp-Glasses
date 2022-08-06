@@ -1,15 +1,12 @@
 @import "./reset";  
-@import "./base";
 @import "./grid";
+@import "./base";
+@import "./header";
+@import "./footer";
 @import "./utility";
-@import "./mixin";
-@import "./layout.scss";
 @import "./variables";
 
 
-header{
-  background-color:$primary_color;
-}
 
 h2{
   font-size: 36px;
@@ -32,16 +29,6 @@ h5{
   margin-bottom: 72px;
 }
 
-.header-box{
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu a{
-      font-size: 20px;
-      padding: 25px;
-    }
-
 
 .banner{
   background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png");
@@ -60,7 +47,7 @@ h5{
       font-size: 64px;
       font-weight: bold;
     }
-    .banner a{
+    a{
       display: inline-block;
       padding: 6px 12px;
       font-size: 20px;
@@ -193,59 +180,7 @@ h5{
 }
 
 
-.footer{
-  background-color:$primary_color;
-  padding-top: 48px;
-  .footer-navbar{
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 24px;
-    .footer-navbar-menu{
-      width:40%;
-      justify-content: space-between;
-      align-items: center;
-      padding-left: 0px;
-      & a{
-        gap: 24px;
-      }
-    }
-    .footer-navbar-media{
-      width: 15.75%;
-      justify-content: space-between;
-      align-items: center;
-      gap: 32px;
-    }
-  }
-  .footer-contact{
-    font-size: 36px;
-    flex-direction: column;
-    & span{
-      font-size: 36px;
-    }
-    .footer-contact-box{
-      padding-bottom: 32px;
-      border-bottom: 1px solid #fff;
-      .footer-contact-phone,.footer-contact-letter{
-        align-items: center;
-        gap:20px;
-      }
-      .footer-navbar-media-s{
-        display: none;
-      }
-    }
-    }
-    .footer-copyright{
-      padding-top: 8px;
-      justify-content: space-between;
-      align-items: center;
-      .footer-copyright-box {
-        gap: 48px;
-        & a{
-          padding: 24px 0;
-        }
-      }
-    }
-}
+
 
 
 @media(max-width:992px){
